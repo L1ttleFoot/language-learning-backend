@@ -10,7 +10,10 @@ const PORT = process.env.PORT || 8080;
 
 dotenv.config();
 
-const allowedOrigins = ['http://localhost:5173', 'http://192.168.1.66:5173'];
+const allowedOrigins = [
+	'http://localhost:5173',
+	'https://language-learning-frontend-steel.vercel.app',
+];
 
 app.use(
 	cors({
